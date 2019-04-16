@@ -1,0 +1,245 @@
+/*
+Happy Coding
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0% auto;
+}
+p{
+    color: #A4A4A4;
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 6rem;
+    color: white;
+}
+h2, h3{
+    color: white;
+    font-size: 2rem;   
+}
+h4{
+    color: white;
+    font-size: 1.7rem;   
+    
+}
+
+a {
+    color: #A4A4A4;
+    text-decoration: none;
+
+}
+a:hover{
+    border-bottom: 1px solid #F5A623;
+}
+a:active{
+    border-bottom: 1px solid #F5A623;
+    
+}
+
+body{
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url(./images/hero.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: fixed;  
+}
+.content-container{
+    display: grid;
+    
+    grid-template-columns: 10vw 10vw 10vw 10vw 20vw 10vw 10vw 10vw 10vw;
+    grid-template-rows: 10vh 100vh 100vh 70vh 10vh;
+    
+}
+.container-nav{
+    background-color:#1D1D1B;
+    height: 10vh;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+    width: 100%;
+    display: grid;
+}
+.logo{
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.link-container{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.logo img{
+    height: 4vh;
+    width: 10vw;
+    margin: 0 auto;
+}
+.links{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 7vw 7vw 7vw;  
+}
+
+
+
+
+.front-container{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: row2-start;
+    grid-row-end: 2;
+
+}
+.front-content > p {
+    margin-top:40vh;
+}
+
+button{
+    color: white;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    margin-top: 25%;
+    padding-bottom:2%; 
+    cursor: pointer;
+    border-bottom: 1px solid #F5A623;
+    font-size: 1.2rem;
+}
+
+.second-container{
+    background-color: #1D1D1B;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: row3-start;
+    grid-row-end: 3;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 20vw 10vw 10vw 10vw 10vw;
+}
+
+.species-container{
+    margin-top:35vh;
+    background-color: #1D1D1B;
+    width: 30vw;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+.leopard-container{
+    margin-top:20vh;
+    background-color: #1D1D1B;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    width: 50rem;
+}
+.leopard-container > img{
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 10px; 
+}
+#bigger-p{
+    font-size: 1.3rem;
+
+}
+.divy{
+    width: 60px;
+    height: 2px;
+    margin: 40px 0px;
+    background-color: #F5A623;
+}
+.divy2{
+    
+    width: 60px;
+    height: 2px;
+    margin: 40px 0px;
+    margin-left: 13.5vw;
+    background-color: #F5A623;
+}
+.our-work-container{
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: row4-start;
+    grid-row-end: 4;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 20vw 10vw 10vw 10vw 10vw;
+    text-align: center;
+    
+}
+.our-work{
+    width: 30vw;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.medical{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    width: 20vw;
+    grid-row-start: row4-start;
+    grid-row-end: 4;
+}
+.trucks{
+    width: 20vw;
+    grid-column-start: 4;
+    grid-column-end:  7;
+    grid-row-start: row4-start;
+    grid-row-end: 4;
+}
+.video{
+    width: 20vw;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: row4-start;
+    grid-row-end: 4;
+}
+.video  > p {
+    font-size: 1rem;
+    margin-top: 2%; 
+}
+.trucks  > p {
+    margin-top: 2%; 
+    font-size: 1rem;
+}
+.medical  > p {
+    margin-top: 2%; 
+    font-size: 1rem;
+}
+
+.f{
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: row5-start;
+    grid-row-end: 5;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 20vw 10vw 10vw 10vw 10vw;
+    text-align: center;
+    background: #000;
+}
+footer{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: row5-start;
+    grid-row-end: 5;
+    align-self: center;
+}
